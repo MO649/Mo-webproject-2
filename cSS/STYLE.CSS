@@ -1,12 +1,14 @@
-body{
+body {
     background-color: red;
 }
+
 /* makes the body backround colour red*/
 
-h1 {
+.head_title {
     color: goldenrod;
     text-align: center;
 }
+
 /* makes h1 gold and centered*/
 
 p {
@@ -15,44 +17,54 @@ p {
     font-family: 'Times New Roman', Times, serif;
 
 }
+
 /*text is purple large and new times roman*/
 
 nav {
     background-color: blueviolet;
     border: 2px black solid;
 }
+
 /*black borde and pyple backround*/
 
-ul {
-    box-shadow: 0ch; background-color: azure;
+.list {
+    box-shadow: 0ch;
+    background-color: azure;
 }
+
 /*dots have white backround*/
-li{
+li {
     background-color: aqua;
 }
+
 /*list is blue*/
 a:hover {
     background-color: rgb(0, 123, 255);
     font-size: 18px;
 }
+
 /*makes link a difrent colour*/
-body{background-color: blueviolet;
-    font-style: oblique;}
-    h4 {
+body {
+    background-color: blueviolet;
+    font-style: oblique;
+}
+
+.par {
     border: 2px solid pink;
     padding: 15px;
     background-color: blue;
     width: 100%;
     border-radius: 8px;
     display: inline-block;
-    }
-    h1 {
-        
-            border: 2px solid pink;
-            padding: 15px;
-            background-color: blue;
-            width: 100%;
-            border-radius: 8px;
-            display: inline-block;
-            
-    }
+}
+
+.head_title {
+
+    border: 2px solid pink;
+    padding: 15px;
+    background-color: blue;
+    width: 100%;
+    border-radius: 8px;
+    display: inline-block;
+
+}
