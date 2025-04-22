@@ -1,0 +1,67 @@
+body.dark {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+/* makes the body backround colour red*/
+
+.dark .head_title {
+    color: aquamarine;
+}
+
+/* makes h1 gold and centered*/
+
+.dark .p{
+    color: purple;
+
+}
+
+/*text is purple large and new times roman*/
+
+.dark .nav {
+    background-color: rgb(19, 55, 175);
+    border: 2px black solid;
+}
+
+/*black borde and pyple backround*/
+
+.dark .list {
+    background-color: azure;
+}
+
+/*dots have white backround*/
+.dark li {
+    background-color: blueviolet;
+}
+
+.dark li a{
+    background-color: blueviolet;
+    color: #dcdcdc;
+}
+
+/*list is blue*/
+.dark .a:hover {
+    background-color: rgb(0, 123, 255);
+}
+
+/*makes link a difrent colour*/
+body.dark {
+    background-color: blueviolet;
+}
+
+.dark .par {
+    border: 2px solid rgb(10, 240, 22);
+    background-color: rgba(6, 211, 242, 0.445);
+}
+.dark h2{
+color: blueviolet;
+}
+
+.dark .head_title {
+
+    border: 2px solid rgb(135, 246, 127);
+    background-color: blue;
+}
+.dark .Video{
+    color: blueviolet;
+}
+

@@ -10,54 +10,62 @@ Date last modified:
 
 <head>
     <link rel="stylesheet" href="cSS/STYLE.CSS" />
+    <!-- <link rel="stylesheet" href="cSS/style-dark.css" /> -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
 
-<body>
+<body class="dark">
     <main>
+            <!--This is the menue-->
+            <nav>
+                <ul class="list">
+                    <li>
+                        <!--This is the home link-->
+                        <a href="home.html" title="home">Home</a>
+                    </li>
+                    <li>
+                        <!--This is about us link-->
+                        <a href="about.html" title="about us">about us</a>
+                    </li>
+                </ul>
+            </nav>
         <!--This is the heading-->
-        <h1 class="head_title" style="text-align: center">
-            Welcome to my website lets learn about <span style="color: #fff;">Treaty 1</span> 
-        </h1>
-        <!--This is the menue-->
-        <nav>
-            <ul class="list">
-                <li>
-                    <!--This is the home link-->
-                    <a href="home.html" title="home">Home</a>
-                </li>
-                <li>
-                    <!--This is about us link-->
-                    <a href="about.html" title="about us">about us</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="title_div">
+            <h1 class="head_title" style="text-align: center">
+                Welcome to my website lets learn about <span style="color: #ffbe30;">Treaty 1</span> 
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, eligendi.</p>
+        </div>
         <!--A photo of where treaty one was negotiated-->
-        <div>
-            <h2>
-                1. Did you know that Treaty 1 was negotiated at lower fort garry this is
-                a photo
-            </h2>
-            <img src="Images/lowerfortgarry7.jpg" alt="lower fort garry" height="150px" width="150px" />
-        </div>
-        <!--A photo of the map of where treaty one is displayed-->
-        <div>
-            <h2>2. Also this a map of the treaty 1 area displayed</h2>
-            <img src="Images/treaty area displayed.jpg" alt="Treaty area" height="150px" width="150px" />
-        </div>
-        <!--A photo of the treaty 1 map in context-->
-            <h2>
-                3. See the Treaty 1 map in context, meaning, a bigger map with a
-                coloured chunk showing where this Treaty 1 territory is.
-            </h2>
-            <img src="Images/1-2.jfif" alt="bigger treaty map" height="150px" width="150px" />
-        </div>
+        <section class="all_img">
+            <div class="img_one img">
+                <h2>
+                    1. Did you know that Treaty 1 was negotiated at lower fort garry this is
+                    a photo
+                </h2>
+                <img src="Images/lowerfortgarry7.jpg" alt="lower fort garry" height="150px" width="150px" />
+            </div>
+            <!--A photo of the map of where treaty one is displayed-->
+            <div class="img_two img">
+                <h2>2. Also this a map of the treaty 1 area displayed</h2>
+                <img src="Images/treaty area displayed.jpg" alt="Treaty area" height="150px" width="150px" />
+            </div>
+            <!--A photo of the treaty 1 map in context-->
+            <div class="img_three img">
+                <h2>
+                    3. See the Treaty 1 map in context, meaning, a bigger map with a
+                    coloured chunk showing where this Treaty 1 territory is.
+                </h2>
+                <img src="Images/1-2.jfif" alt="bigger treaty map" height="150px" width="150px" />
+            </div>
+        </section>
+       
         <!--All of this below is info about treaty 1-->
         <section class="info">
             <h2>
-                4. What communities are involved and what is their ethnic affiliation is
+                What communities are involved and what is their ethnic affiliation is
                 or what Nation they are from?
             </h2>
             <h4 class="par">
@@ -102,8 +110,8 @@ Date last modified:
             </h4>
         </section>
         <section>
-            <h3></h3>
-            <a href=""></a>
+            <h3 class="Video">Video about treaty 1</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/I79TpDe3t2g?si=dcUJ52qdQAVHARKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
     </main>
 </body>

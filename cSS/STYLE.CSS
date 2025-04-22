@@ -1,19 +1,26 @@
 body {
-    background-color: red;
+    font-style: oblique;
+    margin: 0;
+    padding: 0;
 }
 
 /* makes the body backround colour red*/
 
-.head_title {
-    color: goldenrod;
+.title_div{
+    height: 300px;
+    background-color: blueviolet;
+    color: #fff;
     text-align: center;
+}
+.head_title {
+    font-size: 50px;
+    width: 100%;
+    display: inline-block;
 }
 
 /* makes h1 gold and centered*/
 
-p {
-    color: purple;
-    font-size: 500px;
+.title_div p {
     font-family: 'Times New Roman', Times, serif;
 
 }
@@ -22,32 +29,72 @@ p {
 
 nav {
     background-color: blueviolet;
-    border: 2px black solid;
+    padding: 20px;
+    border-bottom: 1px solid rgb(236 221 250);
 }
 
 /*black borde and pyple backround*/
 
 .list {
-    box-shadow: 0ch;
-    background-color: azure;
+    list-style-type: none;
+    padding:0;
+    margin-left: 30px;
+    display: flex;
 }
 
 /*dots have white backround*/
 li {
-    background-color: aqua;
+    
 }
 
 /*list is blue*/
-a:hover {
-    background-color: rgb(0, 123, 255);
-    font-size: 18px;
+a{
+    text-decoration: none;
+    font-size: 22px;
 }
 
-/*makes link a difrent colour*/
-body {
-    background-color: blueviolet;
-    font-style: oblique;
+.list a{
+    margin: 10px;
+    padding:10px 20px;
+    background-color: rgb(236 221 250);
+    border-radius: 10px;
+    color: blueviolet;
+
 }
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.all_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img{
+    border: 1px solid rgb(155, 52, 252); 
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color:rgb(236 221 250) ;
+    border-radius: 5px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+/*makes link a difrent colour*/
 
 .par {
     border: 2px solid pink;
@@ -56,15 +103,8 @@ body {
     width: 100%;
     border-radius: 8px;
     display: inline-block;
+    font-style: normal;
 }
 
-.head_title {
 
-    border: 2px solid pink;
-    padding: 15px;
-    background-color: blue;
-    width: 100%;
-    border-radius: 8px;
-    display: inline-block;
 
-}
