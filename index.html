@@ -7,113 +7,149 @@ Date last modified:
 -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <link rel="stylesheet" href="cSS/STYLE.CSS" />
-        <link rel="stylesheet" href="cSS/style-dark.css">
+    <link rel="stylesheet" href="cSS/style-dark.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body class="dark">
+  <body class="dark">
     <main>
-            <!--This is the menue-->
-            <nav>
-                <ul class="list">
-                    <li>
-                        <!--This is the home link-->
-                        <a href="home.html" title="home">Home</a>
-                    </li>
-                    <li>
-                        <!--This is about us link-->
-                        <a href="about.html" title="about us">about us</a>
-                    </li>
-                </ul>
-            </nav>
-        <!--This is the heading-->
-        <div class="title_div">
-            <h1 class="head_title" style="text-align: center">
-                Welcome to my website lets learn about <span style="color: #ffbe30;">Treaty 1</span> 
-            </h1>
-            <p>Bienvenue sur mon site web, découvrons le traité 1.</p>
-        </div>
-        <!--A photo of where treaty one was negotiated-->
-        <section class="all_img">
-            <div class="img_one img">
-                <h2>
-                    1. Did you know that Treaty 1 was negotiated at lower fort garry this is
-                    a photo
-                </h2>
-                <img src="Images/lowerfortgarry7.jpg" alt="lower fort garry" height="150px" width="150px" />
-            </div>
-            <!--A photo of the map of where treaty one is displayed-->
-            <div class="img_two img">
-                <h2>2. Also this a map of the treaty 1 area displayed</h2>
-                <img src="Images/treaty area displayed.jpg" alt="Treaty area" height="150px" width="150px" />
-            </div>
-            <!--A photo of the treaty 1 map in context-->
-            <div class="img_three img">
-                <h2>
-                    3. See the Treaty 1 map in context, meaning, a bigger map with a
-                    coloured chunk showing where this Treaty 1 territory is.
-                </h2>
-                <img src="Images/1-2.jfif" alt="bigger treaty map" height="150px" width="150px" />
-            </div>
-        </section>
-       
-        <!--All of this below is info about treaty 1-->
-        <section class="info">
-            <h2>
-                What communities are involved and what is their ethnic affiliation is
-                or what Nation they are from?
-            </h2>
-            <h4 class="par">
-                Treaty 1 signed in 1871 involved Indigenous Nations such as the Ojibwe,
-                Anishinaabe, Cree, and Saulteaux, mostly from southern Manitoba, who
-                were represented by bands like the Peguis, Norway House Cree, and Sioux
-                Valley Dakota, and others.
-            </h4>
-            <h2>
-                5. What are the historic terms of the Treaty, meaning what was included
-                in the Treaty (ex. the outside promises, how much land each family of
-                five were to receive, etc.).
-            </h2>
-            <h4 class="par">
-                The historic terms of treaties usually included giving up land,
-                receiving yearly payments or goods, land for families to live on,
-                promises of peace and protection, rights to hunt and fish, and help with
-                education and healthcare, Evan though they never actually did what the
-                promised.
-            </h4>
-            <h2>
-                6. What makes this Treaty different from other Treaties in Canada?
-            </h2>
-            <h4 class="par">
-                Treaty 1 is unique because it was the first of the numbered treaties,
-                signed on August 3, 1871, between the Crown and the Saulteaux and Cree
-                peoples in Southern Manitoba specifically near Fort Garry (modern-day
-                Winnipeg), distinguishing it by its date, people who signed it, and
-                location.
-            </h4>
-            <h2>
-                7. How is the Treaty being implemented today. For example, information
-                about urban reserves (ex. Kapyong Urban Reserve, Long Plain First
-                Nations Gas Station, etc.) or economic development in Treaty
-                communities?
-            </h2>
-            <h4 class="par">
-                Today, Treaty 1 is being put into action through projects like e.g.,
-                Kapyong Urban reserves and businesses like gas stations helping First
-                Nations communities create jobs, manage resources, and make their own
-                decisions also the.
-            </h4>
-        </section>
-        <section>
-            <h3 class="Video">Video about treaty 1</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8uB83G7xZgU?si=s7G6ybqWwvoKHivh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
-    </main>
-</body>
+      <!--This is the menue-->
+      <nav id="nav">
+        <ul class="list">
+          <li>
+            <!--This is the home link-->
+            <a href="index.html" title="home">Home</a>
+          </li>
+          <li>
+            <!--This is about us link-->
+            <a href="about.html" title="about us">about us</a>
+          </li>
+        </ul>
+      </nav>
+      <!--This is the heading-->
+      <header id="title_div">
+        <h1 class="head_title" style="text-align: center">
+          Welcome to my website lets learn about
+          <span style="color: #ffbe30">Treaty 1</span>
+        </h1>
+        <p style="font-size: 20px">
+          Bienvenue sur mon site web, découvrons le traité 1.
+        </p>
+      </header>
+      <!--A photo of where treaty one was negotiated-->
+      <section class="all_img">
+        <figure class="img_one img">
+          <h2>
+            1. Did you know that Treaty 1 was negotiated at lower fort garry
+            this is a photo
+          </h2>
+          <img
+            src="Images/lowerfortgarry7.jpg"
+            alt="lower fort garry"
+            height="150px"
+            width="150px"
+          />
+          <figcaption>Treaty 1 negotiated in Winnipeg</figcaption>
+        </figure>
+        <!--A photo of the map of where treaty one is displayed-->
+        <figure class="img_two img" id="figure_2">
+          <h2>2. Also this a map of the treaty 1 area displayed</h2>
+          <img
+            src="Images/treaty area displayed.jpg"
+            alt="Treaty area"
+            height="150px"
+            width="150px"
+          />
+          <figcaption>Treaty 1 map in canada</figcaption>
+        </figure>
+        <!--A photo of the treaty 1 map in context-->
+        <figure class="img_three img">
+          <h2>
+            3. See the Treaty 1 map in context, meaning, a bigger map with a
+            coloured chunk.
+          </h2>
+          <img
+            src="Images/1-2.jfif"
+            alt="bigger treaty map"
+            height="150px"
+            width="150px"
+          />
+          <figcaption>Treaty 1 map in Manitoba</figcaption>
+        </figure>
+      </section>
 
+      <!--All of this below is info about treaty 1-->
+      <section class="info">
+        <h2>
+          What communities are involved and what is their ethnic affiliation is
+          or what Nation they are from?
+        </h2>
+        <h4 class="par">
+          Treaty 1 signed in 1871 involved Indigenous Nations such as the
+          Ojibwe, Anishinaabe, Cree, and Saulteaux, mostly from southern
+          Manitoba, who were represented by bands like the Peguis, Norway House
+          Cree, and Sioux Valley Dakota, and others.
+        </h4>
+        <!--This is talking about the historic terms-->
+        <h2>
+          5. What are the historic terms of the Treaty, meaning what was
+          included in the Treaty (ex. the outside promises, how much land each
+          family of five were to receive, etc.).
+        </h2>
+        <h4 class="par">
+          The historic terms of treaties usually included giving up land,
+          receiving yearly payments or goods, land for families to live on,
+          promises of peace and protection, rights to hunt and fish, and help
+          with education and healthcare, Evan though they never actually did
+          what the promised.
+        </h4>
+        <!--talks about what makes treaty 1 diffrent-->
+        <h2>
+          6. What makes this Treaty different from other Treaties in Canada?
+        </h2>
+        <h4 class="par">
+          Treaty 1 is unique because it was the first of the numbered treaties,
+          signed on August 3, 1871, between the Crown and the Saulteaux and Cree
+          peoples in Southern Manitoba specifically near Fort Garry (modern-day
+          Winnipeg), distinguishing it by its date, people who signed it, and
+          location.
+        </h4>
+        <!--How treaty is being implemented-->
+        <h2>
+          7. How is the Treaty being implemented today. For example, information
+          about urban reserves (ex. Kapyong Urban Reserve, Long Plain First
+          Nations Gas Station, etc.) or economic development in Treaty
+          communities?
+        </h2>
+        <h4 class="par">
+          Today, Treaty 1 is being put into action through projects like e.g.,
+          Kapyong Urban reserves and businesses like gas stations helping First
+          Nations communities create jobs, manage resources, and make their own
+          decisions also the.
+        </h4>
+      </section>
+      <!--this is a video-->
+      <section style="font-size: 30px; text-align: center">
+        <h3 class="Video">Video about treaty 1</h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/8uB83G7xZgU?si=s7G6ybqWwvoKHivh"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          style="padding-bottom: 40px"
+        ></iframe>
+      </section>
+      <footer id="footer">
+        <span style="font-size: 20px"> Copy right @ Mostafa Abdelghany </span>
+      </footer>
+    </main>
+  </body>
 </html>
