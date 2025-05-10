@@ -10,17 +10,13 @@ body.dark {
 
 /* makes h1 gold and centered*/
 
-.dark .p{
+.dark .p {
     color: purple;
 
 }
 
 /*text is purple large and new times roman*/
 
-.dark .nav {
-    background-color: rgb(19, 55, 175);
-    border: 2px black solid;
-}
 
 /*black borde and pyple backround*/
 
@@ -33,7 +29,7 @@ body.dark {
     background-color: blueviolet;
 }
 
-.dark li a{
+.dark li a {
     background-color: blueviolet;
     color: #dcdcdc;
 }
@@ -52,8 +48,9 @@ body.dark {
     border: 2px solid rgb(10, 240, 22);
     background-color: rgba(6, 211, 242, 0.445);
 }
-.dark h2{
-color: blueviolet;
+
+.dark h2 {
+    color: blueviolet;
 }
 
 .dark .head_title {
@@ -61,7 +58,7 @@ color: blueviolet;
     border: 2px solid rgb(135, 246, 127);
     background-color: blue;
 }
-.dark .Video{
+
+.dark .Video {
     color: blueviolet;
 }
-
